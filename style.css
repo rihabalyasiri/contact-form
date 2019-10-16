@@ -1,0 +1,38 @@
+
+
+.contact-block {
+    width:30%;
+    margin: 10% auto;
+    background: rgb(235, 235, 235);
+}
+
+.contact-heading {
+    color:white;
+    font-size: 40px;
+    background: rgb(27, 165, 119);
+    text-align: center;
+    padding: 10px 20px;
+}
+input[type="text"], input[type="email"], textarea {
+    padding: 10px 20px;
+    width: 80%;
+    margin-left: 5%;
+    outline:none;
+}
+
+textarea {
+    border: .1px solid rgb(194, 192, 192);
+}
+
+input[type="submit"] {
+    width:90%;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    padding:10px 30px;
+    background: rgb(27, 165, 119);
+    color:white;
+}
+
+input[type="submit"]:hover {
+    background: rgb(6, 206, 139);
+}
